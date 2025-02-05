@@ -30,7 +30,7 @@ header img{
     border-radius: 10px;
 }
 
-header, section{
+header, section,footer{
     max-width: 70%;
     margin: 20px auto;
 }
@@ -72,4 +72,16 @@ iframe{
     display: block;
     margin: 20px auto;
     height: 400px;
+}
+
+footer{
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+}
+
+footer a{
+    color: darkcyan;
 }
